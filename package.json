@@ -1,0 +1,8 @@
+{
+  "name": "chatgpt-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shiou-Ju/chatgpt-nodejs.git",
+  "author": "Bamboo <75402531+Shiou-Ju@users.noreply.github.com>",
+  "license": "MIT"
+}
