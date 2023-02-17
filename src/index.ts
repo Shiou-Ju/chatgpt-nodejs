@@ -7,6 +7,7 @@ import { errorHandler } from './middleware/errorHandler';
 import { port } from './config/Env';
 import { mongoConnection } from './config/mongo';
 import { logMiddleware } from './middleware/logMiddleware';
+import { example } from './controllers/gpt';
 
 mongoConnection();
 
@@ -26,7 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(logMiddleware);
 
-// TODO: app.use routes here
+example();
 
 app.use(errorHandler);
 
